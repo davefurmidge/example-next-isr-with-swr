@@ -28,14 +28,6 @@ const Index = ({
           (in this example, content is only saved to the cache)
         </small>
       </p>
-      <p className="mt-4">
-        <a
-          className="underline"
-          href="https://www.devopswithdave.com"
-        >
-          Read the accompanying blog post
-        </a>
-      </p>
 
       <h2 className={`${styles.h2} mt-8`}>Posts</h2>
       <ol className="list-decimal ml-5 mt-4 space-y-1">
