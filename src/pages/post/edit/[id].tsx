@@ -144,6 +144,6 @@ export const getStaticProps = async (context) => {
         post,
       },
     },
-    revalidate: 1,
+    revalidate: 15,
   };
 };

@@ -50,6 +50,6 @@ export const getStaticProps = async () => {
 
   return {
     props: { fallbackData: { posts } },
-    revalidate: 1,
+    revalidate: 15,
   };
 };
